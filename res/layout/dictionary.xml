@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LinerLayout_add"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/Button_add"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="辞書に追加"
+                            android:text="辞書に追加" />
+
+                        <Button
+                            android:id="@+id/Button_remove"
+                            style="?android:attr/buttonStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="辞書から削除"
+                            android:text="辞書から削除" />
+
+                    </LinearLayout>
+
+                    <ScrollView
+                        android:id="@+id/ScrollView_add"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical" >
+
+                           <TextView
+                               android:id="@+id/TextView_dora"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="&lt;ドラ>" />
+
+                           <LinearLayout
+                                android:id="@+id/dora1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ1" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ2" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora3"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ3" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora4"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ4" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora5"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ5" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora6"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ6" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora7"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ7" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora8"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ8" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora9"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ9" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           <LinearLayout
+                                android:id="@+id/dora10"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView_dora10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ドラ10" />
+
+                                <EditText
+                                    android:id="@+id/EditText_dora10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                           
+                            <TextView
+                                android:id="@+id/TextView1han"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;1飜>" />
+
+                            <LinearLayout
+                                android:id="@+id/reach"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView101"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="立直" />
+
+                                <EditText
+                                    android:id="@+id/EditText101"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+
+                                </EditText>
+                            </LinearLayout>
+                            
+                            <LinearLayout
+                                android:id="@+id/yakuhai1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView102"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="役牌×1" />
+
+                                <EditText
+                                    android:id="@+id/EditText102"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/tanyao"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView103"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="断ヤオ九" />
+
+                                <EditText
+                                    android:id="@+id/EditText103"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/pinfu"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView104"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="平和" />
+
+                                <EditText
+                                    android:id="@+id/EditText104"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/menzentsumo"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView105"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="門前自摸" />
+
+                                <EditText
+                                    android:id="@+id/EditText105"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/ippatsu"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView106"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="一発" />
+
+                                <EditText
+                                    android:id="@+id/EditText106"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                               
+                            <LinearLayout
+                                android:id="@+id/iipeikou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView107"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="一盃口" />
+
+                                <EditText
+                                    android:id="@+id/EditText107"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/haiteiron"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView108"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ハイテイロン" />
+
+                                <EditText
+                                    android:id="@+id/EditText108"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/haiteitsumo"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView109"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ハイテイツモ" />
+
+                                <EditText
+                                    android:id="@+id/EditText109"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>  
+                            <LinearLayout
+                                android:id="@+id/riishankaihou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView110"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="嶺上開花" />
+
+                                <EditText
+                                    android:id="@+id/EditText110"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout> 
+                            <LinearLayout
+                                android:id="@+id/doublereach"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView111"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ダブルリーチ" />
+
+                                <EditText
+                                    android:id="@+id/EditText111"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/chankan"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView112"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="チャンカン" />
+
+                                <EditText
+                                    android:id="@+id/EditText112"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>   
+                            <LinearLayout
+                                android:id="@+id/sanshokudoujun_kui"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView113"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="三色同順(喰い)" />
+
+                                <EditText
+                                    android:id="@+id/EditText113"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/ikkitsuukan_kui"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView114"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="一気通貫(喰い)" />
+
+                                <EditText
+                                    android:id="@+id/EditText114"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/honchan_kui"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView115"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="混全帯ヤオ九(喰い)" />
+
+                                <EditText
+                                    android:id="@+id/EditText115"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                         
+                            <TextView
+                                android:id="@+id/TextView2han"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;2飜>" />
+                            <LinearLayout
+                                android:id="@+id/yakuhai2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView201"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="役牌×2" />
+
+                                <EditText
+                                    android:id="@+id/EditText201"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout> 
+                            <LinearLayout
+                                android:id="@+id/toitoi"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView202"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="対々和" />
+
+                                <EditText
+                                    android:id="@+id/EditText202"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/sanshokudoujun_menzen"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView203"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="三色同順(門前)" />
+
+                                <EditText
+                                    android:id="@+id/EditText203"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/chiitoi"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView204"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="七対子" />
+
+                                <EditText
+                                    android:id="@+id/EditText204"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/ikkitsuukan_menzen"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView205"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="一気通貫(門前)" />
+
+                                <EditText
+                                    android:id="@+id/EditText205"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/honchan_menzen"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView206"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="混全帯ヤオ九(門前)" />
+
+                                <EditText
+                                    android:id="@+id/EditText206"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/sanankou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView207"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="三暗刻" />
+
+                                <EditText
+                                    android:id="@+id/EditText207"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/shousangen"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView208"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="小三元" />
+
+                                <EditText
+                                    android:id="@+id/EditText208"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                             
+                            <LinearLayout
+                                android:id="@+id/honroutou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView209"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="混老頭" />
+
+                                <EditText
+                                    android:id="@+id/EditText209"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout> 
+                            <LinearLayout
+                                android:id="@+id/sanshokudoukou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView210"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="三色同刻" />
+
+                                <EditText
+                                    android:id="@+id/EditText210"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/sankantsu"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView211"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="三槓子" />
+
+                                <EditText
+                                    android:id="@+id/EditText211"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/honitsu_kui"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView212"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ホンイツ(喰い)" />
+
+                                <EditText
+                                    android:id="@+id/EditText212"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>                               
+                            <LinearLayout
+                                android:id="@+id/junchan_kui"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView213"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="清全帯ヤオ九(喰い)" />
+
+                                <EditText
+                                    android:id="@+id/EditText213"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <TextView
+                                android:id="@+id/TextView3han"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;3飜>" />
+                            <LinearLayout
+                                android:id="@+id/yakuhai3"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView301"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="役牌×3" />
+
+                                <EditText
+                                    android:id="@+id/EditText301"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                             
+                            <LinearLayout
+                                android:id="@+id/honitsu_menzen"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView302"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ホンイツ(門前)" />
+
+                                <EditText
+                                    android:id="@+id/EditText302"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/junchan_menzen"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView303"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="清全帯ヤオ九(門前)" />
+
+                                <EditText
+                                    android:id="@+id/EditText303"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/ryanpeikou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView304"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="ニ盃口" />
+
+                                <EditText
+                                    android:id="@+id/EditText304"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <TextView
+                                android:id="@+id/TextView4han"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;4飜>" />                            
+                            <LinearLayout
+                                android:id="@+id/yakuhai4"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView401"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="役牌×4" />
+
+                                <EditText
+                                    android:id="@+id/EditText401"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <TextView
+                                android:id="@+id/TextView5han"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;5飜>" />                            
+                            <LinearLayout
+                                android:id="@+id/chinitsu_kui"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView501"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="清一色(喰い)" />
+
+                                <EditText
+                                    android:id="@+id/EditText501"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <TextView
+                                android:id="@+id/TextView6han"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;6飜>" />                            
+                            <LinearLayout
+                                android:id="@+id/chinitsu_menzen"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView601"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="清一色(門前)" />
+
+                                <EditText
+                                    android:id="@+id/EditText601"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+
+                            <TextView
+                                android:id="@+id/TextView13han"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;役満>" />
+                            
+                            <LinearLayout
+                                android:id="@+id/suuankou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1301"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="四暗刻" />
+
+                                <EditText
+                                    android:id="@+id/EditText1301"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/kokushimusou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1302"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="国士無双" />
+
+                                <EditText
+                                    android:id="@+id/EditText1302"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/daisangen"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1303"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="大三元" />
+
+                                <EditText
+                                    android:id="@+id/EditText1303"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/suushiihou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1304"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="四喜和" />
+
+                                <EditText
+                                    android:id="@+id/EditText1304"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/tsuuiisou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1305"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="字一色" />
+
+                                <EditText
+                                    android:id="@+id/EditText1305"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>                             
+                            <LinearLayout
+                                android:id="@+id/chinroutou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1306"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="清老頭" />
+
+                                <EditText
+                                    android:id="@+id/EditText1306"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/chiihou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1307"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="地和" />
+
+                                <EditText
+                                    android:id="@+id/EditText1307"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/ryuuiisou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1308"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="緑一色" />
+
+                                <EditText
+                                    android:id="@+id/EditText1308"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/kyuurenpoutou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1309"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="九蓮宝燈" />
+
+                                <EditText
+                                    android:id="@+id/EditText1309"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/suukantsu"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1310"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="四槓子" />
+
+                                <EditText
+                                    android:id="@+id/EditText1310"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName" 
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>                            
+                            <LinearLayout
+                                android:id="@+id/tenhou"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" >
+
+                                <TextView
+                                    android:id="@+id/TextView1311"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="天和" />
+
+                                <EditText
+                                    android:id="@+id/EditText1311"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:text="" >
+                                </EditText>
+                            </LinearLayout>                             
+                            
+                            
+                            
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinerLayout_show"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView_ex101"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="10"
+                        android:text="[辞書内容]"
+                        android:textSize="20sp" />
+
+                    <ScrollView
+                        android:id="@+id/ScrollView_show"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/TextView_show"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent" />
+
+                    </ScrollView>
+
+                </LinearLayout>
+
+</LinearLayout>

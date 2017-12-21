@@ -1,0 +1,795 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/main_display"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/edit_han"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:hint="0"
+                        android:inputType="number"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/button_han"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="飜ボタン"
+                        android:text="飜"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/edit_fu"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:hint="30"
+                        android:inputType="number"
+                        android:textSize="30sp" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <Button
+                        android:id="@+id/button_fu"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="符ボタン"
+                        android:text="符"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.5"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TextView101"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:hint="-----"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:hint="-----"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="4"
+                android:orientation="vertical" >
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton_onsei"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:onClick="音声認識ボタン"
+                    android:textOff="開始"
+                    android:textOn="停止" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="35sp" >
+
+            <EditText
+                android:id="@+id/edit_dora"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:hint="ドラ"
+                android:inputType="number"
+                android:textSize="12sp" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton_oya"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="ToggleButton"
+                android:textOff="子"
+                android:textOn="親" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton_tanmachi"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="ToggleButton"
+                android:textOff="両待"
+                android:textOn="単待" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton_tsumo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="ToggleButton"
+                android:textOff="ロン"
+                android:textOn="ツモ" />
+
+            <ToggleButton
+                android:id="@+id/toggleButton_kui"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="ToggleButton"
+                android:textOff="門前"
+                android:textOn="喰い" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView_han"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="[役一覧]"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/Button_yaku"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="30dp"
+                        android:onClick="役一覧クリア"
+                        android:text="clear" />
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:id="@+id/ScrollView_yaku"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/textView01"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;1飜>" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox101"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="立直 45.1%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox102"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="役牌×1 40.0%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox103"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="断ヤオ九 21.4%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox104"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="平和 19.9%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox105"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="門前自摸 17.6%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox106"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="一発 10.2%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox107"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="一盃口 4.75%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox108"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ハイテイロン 0.63%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox109"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ハイテイツモ 0.31%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox110"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="嶺上開花 0.28%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox111"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ダブルリーチ 0.19%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox112"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="チャンカン 0.05%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox113"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="三色同順(喰い)" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox114"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="一気通貫(喰い)" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox115"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="混全帯ヤオ九(喰い)" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;2飜>" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox201"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="役牌×2" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox202"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="対々和 3.92%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox203"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="三色同順(門前) 3.46%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox204"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="七対子 2.52%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox205"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="一気通貫(門前) 1.75%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox206"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="混全帯ヤオ九(門前) 1.24%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox207"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="三暗刻 0.76%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox208"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="小三元 0.15%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox209"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="混老頭 0.08%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox210"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="三色同刻 0.05%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox211"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="三槓子 0.005%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox212"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ホンイツ(喰い)" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox213"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="清全帯ヤオ九(喰い)" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView03"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;3飜>" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox301"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="役牌×3" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox302"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ホンイツ(門前) 6.31%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox303"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="清全帯ヤオ九(門前) 0.38%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox304"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ニ盃口 0.05%" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView04"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;4飜>" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox401"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="役牌×4" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView05"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;5飜>" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox501"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="清一色(喰い)" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView_anka_zi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;6飜>" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox601"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="清一色(門前) 0.94%" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;役満(13飜)>" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1301"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="四暗刻 0.049%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1302"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="国士無双 0.043%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1303"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="大三元 0.039%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1304"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="四喜和 0.012%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1305"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="字一色 0.008%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1306"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="清老頭 0.00181%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1307"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="地和 0.00158%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1308"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="緑一色 0.0011%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1309"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="九蓮宝燈 0.00045%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1310"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="四槓子 0.000234%" />
+
+                            <CheckBox
+                                android:id="@+id/CheckBox1311"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="天和 33万回に1回" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                    <TextView
+                        android:id="@+id/TextView_fu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="[牌構成]"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/Button_hai"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="30dp"
+                        android:onClick="牌構成クリア"
+                        android:text="clear" />
+
+                </LinearLayout>
+
+                <ScrollView
+                    android:id="@+id/ScrollView_fu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;頭>" />
+
+                            <ToggleButton
+                                android:id="@+id/toggleButton_atama"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:text="ToggleButton"
+                                android:textOff="役牌でない"
+                                android:textOn="役牌" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;明刻>" />
+
+                            <TextView
+                                android:id="@+id/TextView_minko_hoka"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2~8(2符) × 0" />
+
+                            <SeekBar
+                                android:id="@+id/SeekBar_minko_hoka"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="4"
+                                android:progress="0" />
+
+                            <TextView
+                                android:id="@+id/TextView_minko_zi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1,9,字牌(4符) × 0" />
+
+                            <SeekBar
+                                android:id="@+id/SeekBar_minko_zi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="4"
+                                android:progress="0" />
+
+                            <TextView
+                                android:id="@+id/TextView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;暗刻>" />
+
+                            <TextView
+                                android:id="@+id/TextView_anko_hoka"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2~8(4符) × 0" />
+
+                            <SeekBar
+                                android:id="@+id/SeekBar_anko_hoka"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="4"
+                                android:progress="0" />
+
+                            <TextView
+                                android:id="@+id/TextView_anko_zi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1,9,字牌(8符) × 0" />
+
+                            <SeekBar
+                                android:id="@+id/SeekBar_anko_zi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="4"
+                                android:progress="0" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@+id/TextView09"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;明槓>" />
+
+                            <TextView
+                                android:id="@+id/TextView_minka_hoka"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2~8(8符) × 0" />
+
+                            <SeekBar
+                                android:id="@+id/SeekBar_minka_hoka"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="4"
+                                android:progress="0" />
+
+                            <TextView
+                                android:id="@+id/TextView_minka_zi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1,9,字牌(16符) × 0" />
+
+                            <SeekBar
+                                android:id="@+id/SeekBar_minka_zi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="4"
+                                android:progress="0" />
+
+                            <TextView
+                                android:id="@+id/TextView09"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="&lt;暗槓>" />
+
+                            <TextView
+                                android:id="@+id/TextView_anka_hoka"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2~8(16符) × 0" />
+
+                            <SeekBar
+                                android:id="@+id/SeekBar_anka_hoka"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="4"
+                                android:progress="0" />
+
+                            <TextView
+                                android:id="@+id/TextView_anka_zi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1,9,字牌(32符) × 0" />
+
+                            <SeekBar
+                                android:id="@+id/SeekBar_anka_zi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:max="4"
+                                android:progress="0" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
